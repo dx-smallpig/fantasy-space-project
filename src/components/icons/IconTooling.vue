@@ -1,7 +1,7 @@
 <!-- This icon is from <https://github.com/templarian/materialdesign>, distributed under apache 2.0 (https://www.apache.org/licenses/license-2.0) license-->
 <template>
   <svg
-    xmlns="http://www.w3.org/2000/svg";
+    xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     aria-hidden="true"
     role="img"
