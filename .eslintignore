@@ -1,0 +1,7 @@
+.config/*
+.husky
+.local
+public/*
+.vscode
+node_modules
+commitlint.config.cjs

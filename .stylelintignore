@@ -1,0 +1,5 @@
+dist
+public
+node_modules
+.husky
+commitlint.config.cjs

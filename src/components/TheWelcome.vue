@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import WelcomeItem from './WelcomeItem.vue';
+import DocumentationIcon from './icons/IconDocumentation.vue';
+import ToolingIcon from './icons/IconTooling.vue';
+import EcosystemIcon from './icons/IconEcosystem.vue';
+import CommunityIcon from './icons/IconCommunity.vue';
+import SupportIcon from './icons/IconSupport.vue';
 </script>
 
 <template>
@@ -85,4 +85,4 @@ import SupportIcon from './icons/IconSupport.vue'
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
   </WelcomeItem>
-</template>
+</template><template><WelcomeItem><template#icon><DocumentationIcon</template><template#heading>Documentation</template>Vue’s<ahref=target=rel=>officialdocumentation</a>providesyouwithallinformationyouneedtogetstarted.</WelcomeItem><WelcomeItem><template#icon><ToolingIcon</template><template#heading>Tooling</template>Thisprojectisservedandbundledwith<ahref=target=rel=>Vite</a>.TherecommendedIDEsetupis<ahref=target=rel=>VSCode</a><ahref=target=rel=>Volar</a>.Ifyouneedtotestyourcomponentsandwebpages,checkout<ahref=target=rel=>Cypress</a>and<ahref=target=rel=>CypressComponentTesting</a<brMoreinstructionsareavailablein<code>README.md</code>.</WelcomeItem><WelcomeItem><template#icon><EcosystemIcon</template><template#heading>Ecosystem</template>Getofficialtoolsandlibrariesforyourproject
