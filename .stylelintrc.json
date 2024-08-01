@@ -93,6 +93,5 @@
       ],
       { "severity": "error" }
     ]
-  },
-  "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.ts"]
+  }
 }
