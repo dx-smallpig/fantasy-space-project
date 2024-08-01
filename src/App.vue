@@ -75,9 +75,9 @@ nav a:first-of-type {
   }
 
   nav {
-    padding: 1rem 0;
     margin-top: 1rem;
     margin-left: -1rem;
+    padding: 1rem 0;
     font-size: 1rem;
     text-align: left;
   }
