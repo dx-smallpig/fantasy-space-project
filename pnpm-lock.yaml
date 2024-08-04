@@ -81,6 +81,9 @@ importers:
       npm-run-all2:
         specifier: ^6.2.0
         version: 6.2.2
+      postcss:
+        specifier: ^8.4.40
+        version: 8.4.40
       postcss-html:
         specifier: ^1.7.0
         version: 1.7.0
@@ -93,12 +96,12 @@ importers:
       stylelint:
         specifier: ^16.8.1
         version: 16.8.1(typescript@5.4.5)
-      stylelint-config-prettier:
-        specifier: ^9.0.5
-        version: 9.0.5(stylelint@16.8.1(typescript@5.4.5))
       stylelint-config-property-sort-order-smacss:
         specifier: ^10.0.0
         version: 10.0.0(stylelint@16.8.1(typescript@5.4.5))
+      stylelint-config-recommended:
+        specifier: ^14.0.1
+        version: 14.0.1(stylelint@16.8.1(typescript@5.4.5))
       stylelint-config-recommended-vue:
         specifier: ^1.5.0
         version: 1.5.0(postcss-html@1.7.0)(stylelint@16.8.1(typescript@5.4.5))
@@ -2263,13 +2266,6 @@ packages:
     peerDependencies:
       postcss-html: ^1.0.0
       stylelint: '>=14.0.0'
-
-  stylelint-config-prettier@9.0.5:
-    resolution: {integrity: sha512-U44lELgLZhbAD/xy/vncZ2Pq8sh2TnpiPvo38Ifg9+zeioR+LAkHu0i6YORIOxFafZoVg0xqQwex6e6F25S5XA==}
-    engines: {node: '>= 12'}
-    hasBin: true
-    peerDependencies:
-      stylelint: '>= 11.x < 15'
 
   stylelint-config-property-sort-order-smacss@10.0.0:
     resolution: {integrity: sha512-NuiTgyqD8UdYY1IpTBIodBbrWKwaib5r8sq5kGHQ52UrmT8O7Fa8ZWYGipSZw6k9tGoljl9Hng2jtH+wBTMa1Q==}
@@ -4767,10 +4763,6 @@ snapshots:
   stylelint-config-html@1.1.0(postcss-html@1.7.0)(stylelint@16.8.1(typescript@5.4.5)):
     dependencies:
       postcss-html: 1.7.0
-      stylelint: 16.8.1(typescript@5.4.5)
-
-  stylelint-config-prettier@9.0.5(stylelint@16.8.1(typescript@5.4.5)):
-    dependencies:
       stylelint: 16.8.1(typescript@5.4.5)
 
   stylelint-config-property-sort-order-smacss@10.0.0(stylelint@16.8.1(typescript@5.4.5)):
