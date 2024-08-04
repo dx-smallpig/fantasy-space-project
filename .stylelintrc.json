@@ -1,9 +1,14 @@
 {
   "extends": [
     "stylelint-config-standard",
-    "stylelint-config-property-sort-order-smacss"
+    "stylelint-config-property-sort-order-smacss",
+    "stylelint-config-prettier",
+    "stylelint-config-recommended-vue"
   ],
-  "plugins": ["stylelint-order", "stylelint-prettier"],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-prettier"
+  ],
   "overrides": [
     {
       "files": ["**/*.(css|html|vue)"],
@@ -16,17 +21,6 @@
         "stylelint-config-standard",
         "stylelint-config-recommended-vue"
       ]
-    },
-    {
-      "files": ["*.scss", "**/*.scss"],
-      "customSyntax": "postcss-scss",
-      "extends": [
-        "stylelint-config-standard-scss",
-        "stylelint-config-recommended-vue/scss"
-      ],
-      "rule": {
-        "scss/percent-placeholder-pattern": null
-      }
     }
   ],
   "rules": {
